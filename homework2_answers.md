@@ -35,3 +35,11 @@ Part 1 - Github III
 
 3. Why would you want to use a branch other than the default master?
 -the new branch may include a feature that should not be in the default master and should not affect the current master until tested to go live
+
+Part 1 - Github IV
+1. Give an example for when you would use git merge and give an example for when it would be better to submit a pull request to have your branch merged
+-a git merge is best when you intend of bringing in a specific histor of another branch into your current branch
+-a pull request is best when you have created a branch that you believe should be included into the master branch
+
+2. What command do you use to send all of the work that you've done locally to your remote repository?
+-git push [remote] [master]
