@@ -9,3 +9,19 @@ Part 1 - Github
 3. What command do you use to ask git to move your file from the staging area to the repository?
 -git push [alias] [branch]
 -ex. git push origin master
+
+Part 1 - Github II
+1. What command do you use to pull any changes from the master repository into your local repository?
+-git pull
+
+2. What command do you use to unstage a file?
+-git reset [file]
+
+3. What command do you use to change your files back to how they were after a commit?
+-git reset [commit]
+
+4. Why is it important to use -- when changing files back to a previous state?
+-the double dash[--] is necessary to separate the base commands from parameters providing more specific options
+
+5. Why might you want to reset your files back to a previous commit?
+-it may be best to reset files back to a specific commit as a hot fix to a bug that was included in an update
