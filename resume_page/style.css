@@ -10,3 +10,8 @@ h3 {
 p {
 	padding: 20px 5px;
 }
+
+.column {
+	float: left;
+	width: 33.33%;
+}
